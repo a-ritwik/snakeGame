@@ -32,7 +32,7 @@ public class Board extends JPanel implements ActionListener {
 
 	// Timer used to record tick times
 	private Timer timer;
-	private static int speed = 50; // lower means faster game
+	private static int speed = 60; // lower means faster game
 	private Snake snake = new Snake();
 	private Food food = new Food();
 
